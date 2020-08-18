@@ -1,6 +1,7 @@
 img {
     height: 500px;
     align-self: center;
+    filter: contrast(105%);
 }
 
 .ice-cream {
