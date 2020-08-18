@@ -1,0 +1,30 @@
+img {
+    height: 500px;
+    align-self: center;
+}
+
+.ice-cream {
+    font-size: 20px;
+}
+
+.bigImage {
+    height: 600px;
+}
+
+.tempoClass {
+    height: 1px;
+    width: 1px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
