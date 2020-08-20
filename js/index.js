@@ -63,13 +63,22 @@ const allCards = [
 
 const selectElement = document.querySelector('.ice-cream');
 const logging = document.querySelector('.logging');
-const loggingArray = [];
+
+let loggingArray = localStorage.getItem('items')
+    ? JSON.parse(localStorage.getItem('items'))
+    : [];
+
+localStorage.setItem('items', JSON.stringify(loggingArray));
+const data = JSON.parse(localStorage.getItem('items'));
+
+logging.textContent = 'Picked cards (in order): ' + loggingArray;
 
 selectElement.addEventListener('change', event => {
     numberSomething = `${event.target.value}`;
-    console.log(numberSomething);
+
     let pickedCard = allCards[(id = `${event.target.value}`)];
     loggingArray.push(pickedCard.name);
+    localStorage.setItem('items', JSON.stringify(loggingArray));
 
     document
         .querySelector('.result')
