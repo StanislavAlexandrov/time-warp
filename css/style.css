@@ -4,6 +4,95 @@ img {
     filter: contrast(105%);
 }
 
+img.room-image {
+    position: relative;
+    height: 1200px;
+}
+
+.container {
+    position: relative;
+}
+
+img.garden-igor-image {
+    position: relative;
+    height: 245px;
+    bottom: 273px;
+    left: 1026px;
+}
+
+img.tv-image {
+    position: relative;
+    height: 437px;
+    bottom: 1442px;
+    left: 6px;
+}
+
+img.butterfly-image {
+    position: relative;
+    height: 440px;
+    bottom: 1889px;
+    left: 266px;
+}
+
+img.board-image {
+    position: relative;
+    height: 448px;
+    bottom: 3373px;
+    left: 1384px;
+}
+
+img.professor-image {
+    position: relative;
+    height: 448px;
+    bottom: 4037px;
+    left: 817px;
+}
+
+img.living-hector-image {
+    position: relative;
+    height: 245px;
+    bottom: 1667px;
+    left: 526px;
+}
+
+img.living-victor-image {
+    position: relative;
+    height: 245px;
+    bottom: 1654px;
+    left: 26px;
+}
+
+img.living-igor-image {
+    position: relative;
+    height: 245px;
+    bottom: 2164px;
+    left: 1024px;
+}
+
+img.garden-hector-image {
+    position: relative;
+    height: 245px;
+    bottom: 2153px;
+    left: 528px;
+}
+
+img.garden-victor-image {
+    position: relative;
+    height: 245px;
+    bottom: 2662px;
+    left: 25px;
+}
+
+img.article-image {
+    position: relative;
+    height: 245px;
+    bottom: 4505px;
+    left: 1070px;
+}
+.hidden {
+    opacity: 0%;
+}
+
 .ice-cream {
     font-size: 20px;
 }
